@@ -3,6 +3,7 @@
 // 執行：node sensor.js
 const reading = {
   deviceId: 'esp32-01',                                        // 設備編號
+  location: '訓練大樓2F-2208',                                         // 設備安裝位置
   temperature: Number((20 + Math.random() * 10).toFixed(1)),   // 20.0–30.0 °C
   humidity: Number((40 + Math.random() * 30).toFixed(1)),      // 40.0–70.0 %
   ts: new Date().toISOString(),                             // UTC 時間戳記
